@@ -15,6 +15,7 @@
 		8E673D0A2431DB6E000B742C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E673D082431DB6E000B742C /* LaunchScreen.storyboard */; };
 		8E673D152431DB6E000B742C /* CodeTextFieldDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E673D142431DB6E000B742C /* CodeTextFieldDemoTests.swift */; };
 		8E673D202431DB6F000B742C /* CodeTextFieldDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E673D1F2431DB6F000B742C /* CodeTextFieldDemoUITests.swift */; };
+		8E673D2E2431DC48000B742C /* DCTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E673D2D2431DC48000B742C /* DCTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8E673D1B2431DB6E000B742C /* CodeTextFieldDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeTextFieldDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E673D1F2431DB6F000B742C /* CodeTextFieldDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextFieldDemoUITests.swift; sourceTree = "<group>"; };
 		8E673D212431DB6F000B742C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E673D2D2431DC48000B742C /* DCTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				8E673CFD2431DB6C000B742C /* AppDelegate.swift */,
 				8E673CFF2431DB6C000B742C /* SceneDelegate.swift */,
 				8E673D012431DB6C000B742C /* ViewController.swift */,
+				8E673D2D2431DC48000B742C /* DCTextField.swift */,
 				8E673D032431DB6C000B742C /* Main.storyboard */,
 				8E673D062431DB6E000B742C /* Assets.xcassets */,
 				8E673D082431DB6E000B742C /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E673D2E2431DC48000B742C /* DCTextField.swift in Sources */,
 				8E673D022431DB6C000B742C /* ViewController.swift in Sources */,
 				8E673CFE2431DB6C000B742C /* AppDelegate.swift in Sources */,
 				8E673D002431DB6C000B742C /* SceneDelegate.swift in Sources */,
@@ -436,6 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CodeTextFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CodeTextFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
